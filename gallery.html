@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Personal Gallery | Kevin Ng</title>
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- GLightbox -->
+  <link href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" rel="stylesheet">
+
+  <!-- AOS Animation -->
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+  <!-- FontAwesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="dark-theme" style="background-color: #0a0a0a; color: white;">
+
+  <!-- Navbar -->
+  <header class="nav py-3">
+    <div class="container d-flex justify-content-between align-items-center">
+      <div class="logo d-flex align-items-center">
+        <img src="images/engineering.png" alt="Kevin Logo" class="logo-icon me-2" style="height: 40px;">
+        <span style="font-weight: bold; font-size: 24px;">Kevin Ng</span>
+      </div>
+      <nav class="d-none d-md-flex gap-4">
+        <a href="index.html" class="nav-link text-white">Home</a>
+        <a href="experience.html" class="nav-link text-white">Portfolio</a>
+        <div class="dropdown position-relative custom-dropdown">
+          <a href="hobbies.html" class="nav-link text-white">Hobbies</a>
+          <ul class="dropdown-menu position-absolute">
+            <li><a class="dropdown-item text-white" href="cs.html">Computer Science</a></li>
+            <li><a class="dropdown-item text-white" href="jap.html">Japanese</a></li>
+          </ul>
+        </div>
+        <a href="gallery.html" class="nav-link text-white active">Personal Gallery</a>
+        <a href="contact.html" class="nav-link text-white">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Gallery Section -->
+  <main class="container py-5">
+    <div class="text-center mb-5" data-aos="fade-up">
+      <h1 class="display-4 fw-bold" style="color: #00ffcc;">My Adventures</h1>
+      <p class="lead text-custom-muted">To capture a moment is to hold the breath of time - to preserve the echo of something already gone, yet forever present.</p>
+    </div>
+
+    <div class="row g-4 gallery-grid" data-aos="fade-up">
+      <!-- Gallery Item -->
+      <div class="col-sm-6 col-md-4">
+        <a href="images/Image_42.JPEG" class="glightbox d-block gallery-item">
+          <img src="images/Image_42.JPEG" class="img-fluid rounded-4 shadow" alt="Work @ Desalination Plant">
+          <div class="overlay"><span>Work @ Desalination Plant</span></div>
+        </a>
+      </div>
+
+      <div class="col-sm-6 col-md-4">
+        <a href="images/Image_41.JPEG" class="glightbox d-block gallery-item">
+          <img src="images/Image_41.JPEG" class="img-fluid rounded-4 shadow" alt="Work @ Desalination Plant">
+          <div class="overlay"><span>Work @ Desalination Plant</span></div>
+        </a>
+      </div>
+
+      <div class="col-sm-6 col-md-4">
+        <a href="images/Image_40.JPEG" class="glightbox d-block gallery-item">
+          <img src="images/Image_40.JPEG" class="img-fluid rounded-4 shadow" alt="MICE Chartership Award">
+          <div class="overlay"><span>MICE Chartership Award</span></div>
+        </a>
+      </div>
+
+      <div class="col-sm-6 col-md-4">
+        <a href="images/Image_39.JPEG" class="glightbox d-block gallery-item">
+          <img src="images/Image_39.JPEG" class="img-fluid rounded-4 shadow" alt="Public Exhibition of Desalination Plant">
+          <div class="overlay"><span>Public Exhibition of Desal</span></div>
+        </a>
+      </div>
+
+      <div class="col-sm-6 col-md-4">
+        <a href="images/Image_38.JPEG" class="glightbox d-block gallery-item">
+          <img src="images/Image_38.JPEG" class="img-fluid rounded-4 shadow" alt="Work @ Desalination Plant">
+          <div class="overlay"><span>Work @ Desalination Plant</span></div>
+        </a>
+      </div>
+      <div class="col-sm-6 col-md-4">
+        <a href="images/Image_37.JPEG" class="glightbox d-block gallery-item">
+          <img src="images/Image_37.JPEG" class="img-fluid rounded-4 shadow" alt="Climbing Mt.Fuji @ 2024">
+          <div class="overlay"><span>Climbing Mt.Fuji @ 2024</span></div>
+        </a>
+      </div>
+
+      <div class="col-sm-6 col-md-4">
+        <a href="images/Image_36.JPEG" class="glightbox d-block gallery-item">
+          <img src="images/Image_36.JPEG" class="img-fluid rounded-4 shadow" alt="Climbing Mt.Fuji @ 2024">
+          <div class="overlay"><span>Climbing Mt.Fuji @ 2024</span></div>
+        </a>
+      </div>
+
+      <div class="col-sm-6 col-md-4">
+        <a href="images/Image_35.JPEG" class="glightbox d-block gallery-item">
+          <img src="images/Image_35.JPEG" class="img-fluid rounded-4 shadow" alt="GRP Pipe Supervision">
+          <div class="overlay"><span>GRP Pipe Supervision</span></div>
+        </a>
+      </div>
+
+      <div class="col-sm-6 col-md-4">
+        <a href="images/Image_34.jpg" class="glightbox d-block gallery-item">
+          <img src="images/Image_34.jpg" class="img-fluid rounded-4 shadow" alt="CKR Tunnel Visit">
+          <div class="overlay"><span>CKR Tunnel Visit</span></div>
+        </a>
+      </div>
+
+      <div class="col-sm-6 col-md-4">
+        <a href="images/Image_33.JPEG" class="glightbox d-block gallery-item">
+          <img src="images/Image_33.JPEG" class="img-fluid rounded-4 shadow" alt="NEC PM Work for Sewerage Project">
+          <div class="overlay"><span>NEC PM Work for Sewerage Project</span></div>
+        </a>
+      </div>
+      <div class="col-sm-6 col-md-4">
+        <a href="images/Image_32.JPEG" class="glightbox d-block gallery-item">
+          <img src="images/Image_32.JPEG" class="img-fluid rounded-4 shadow" alt="HKUST Alumni Dinner">
+          <div class="overlay"><span>HKUST Alumni Dinner</span></div>
+        </a>
+      </div>
+
+      <div class="col-sm-6 col-md-4">
+        <a href="images/Image_31.JPEG" class="glightbox d-block gallery-item">
+          <img src="images/Image_31.JPEG" class="img-fluid rounded-4 shadow" alt="Learning of 3D Laser Scanner">
+          <div class="overlay"><span>Learning of 3D Laser Scanner</span></div>
+        </a>
+      </div>
+
+      <div class="col-sm-6 col-md-4">
+        <a href="images/Image_30.JPEG" class="glightbox d-block gallery-item">
+          <img src="images/Image_30.JPEG" class="img-fluid rounded-4 shadow" alt="Hong Kong Half Marathon">
+          <div class="overlay"><span>Hong Kong Half Marathon</span></div>
+        </a>
+      </div>
+
+      <div class="col-sm-6 col-md-4">
+        <a href="images/Image_29.JPEG" class="glightbox d-block gallery-item">
+          <img src="images/Image_29.JPEG" class="img-fluid rounded-4 shadow" alt="Learning of Flying Drone">
+          <div class="overlay"><span>Learning of Flying Drone</span></div>
+        </a>
+      </div>
+
+      <div class="col-sm-6 col-md-4">
+        <a href="images/Image_28.jpg" class="glightbox d-block gallery-item">
+          <img src="images/Image_28.jpg" class="img-fluid rounded-4 shadow" alt="HKIE Event Helpers">
+          <div class="overlay"><span>HKIE Event Helpers</span></div>
+        </a>
+      </div>
+      <div class="col-sm-6 col-md-4">
+        <a href="images/Image_27.JPEG" class="glightbox d-block gallery-item">
+          <img src="images/Image_27.JPEG" class="img-fluid rounded-4 shadow" alt="Work Life @ Meinhardt">
+          <div class="overlay"><span>Work Life @ Meinhardt</span></div>
+        </a>
+      </div>
+
+      <div class="col-sm-6 col-md-4">
+        <a href="images/Image_26.JPEG" class="glightbox d-block gallery-item">
+          <img src="images/Image_26.JPEG" class="img-fluid rounded-4 shadow" alt="Work Life @ Meinhardt">
+          <div class="overlay"><span>Work Life @ Meinhardt</span></div>
+        </a>
+      </div>
+
+      <div class="col-sm-6 col-md-4">
+        <a href="images/Image_25.JPEG" class="glightbox d-block gallery-item">
+          <img src="images/Image_25.JPEG" class="img-fluid rounded-4 shadow" alt="Graduation @ HKUST">
+          <div class="overlay"><span>Graduation @ HKUST</span></div>
+        </a>
+      </div>
+
+      <div class="col-sm-6 col-md-4">
+        <a href="images/Image_24.JPEG" class="glightbox d-block gallery-item">
+          <img src="images/Image_24.JPEG" class="img-fluid rounded-4 shadow" alt="Graduation @ HKUST">
+          <div class="overlay"><span>Graduation @ HKUST</span></div>
+        </a>
+      </div>
+
+      <div class="col-sm-6 col-md-4">
+        <a href="images/Image_23.JPEG" class="glightbox d-block gallery-item">
+          <img src="images/Image_23.JPEG" class="img-fluid rounded-4 shadow" alt="Tai Mo Shan of Hong Kong">
+          <div class="overlay"><span>Tai Mo Shan of Hong Kong</span></div>
+        </a>
+      </div>
+      <div class="col-sm-6 col-md-4">
+        <a href="images/Image_22.JPEG" class="glightbox d-block gallery-item">
+          <img src="images/Image_22.JPEG" class="img-fluid rounded-4 shadow" alt="Kowloon Peak of Hong Kong">
+          <div class="overlay"><span>Kowloon Peak of Hong Kong</span></div>
+        </a>
+      </div>
+
+      <div class="col-sm-6 col-md-4">
+        <a href="images/Image_21.JPEG" class="glightbox d-block gallery-item">
+          <img src="images/Image_21.JPEG" class="img-fluid rounded-4 shadow" alt="Final Year Project @ HKUST">
+          <div class="overlay"><span>Final Year Project @ HKUST</span></div>
+        </a>
+      </div>
+
+      <div class="col-sm-6 col-md-4">
+        <a href="images/Image_20.JPEG" class="glightbox d-block gallery-item">
+          <img src="images/Image_20.JPEG" class="img-fluid rounded-4 shadow" alt="Internship @ Meinhardt">
+          <div class="overlay"><span>Internship @ Meinhardt</span></div>
+        </a>
+      </div>
+
+      <div class="col-sm-6 col-md-4">
+        <a href="images/Image_19.JPEG" class="glightbox d-block gallery-item">
+          <img src="images/Image_19.JPEG" class="img-fluid rounded-4 shadow" alt="Seismic Design Competition @ HKUST">
+          <div class="overlay"><span>Seismic Design Competition @ HKUST</span></div>
+        </a>
+      </div>
+
+      <div class="col-sm-6 col-md-4">
+        <a href="images/Image_18.JPEG" class="glightbox d-block gallery-item">
+          <img src="images/Image_18.JPEG" class="img-fluid rounded-4 shadow" alt="Orientation Camp Organizer for HKUST 2018">
+          <div class="overlay"><span>Orientation Camp Organizer for HKUST 2018</span></div>
+        </a>
+      </div>
+      <div class="col-sm-6 col-md-4">
+        <a href="images/Image_17.png" class="glightbox d-block gallery-item">
+          <img src="images/Image_17.png" class="img-fluid rounded-4 shadow" alt="Senior Student Hall Mentor @ 2018">
+          <div class="overlay"><span>Senior Student Hall Mentor @ 2018</span></div>
+        </a>
+      </div>
+
+      <div class="col-sm-6 col-md-4">
+        <a href="images/Image_16.JPEG" class="glightbox d-block gallery-item">
+          <img src="images/Image_16.JPEG" class="img-fluid rounded-4 shadow" alt="Osaka Trip @ 2017">
+          <div class="overlay"><span>Osaka Trip @ 2017</span></div>
+        </a>
+      </div>
+
+      <div class="col-sm-6 col-md-4">
+        <a href="images/Image_15.JPEG" class="glightbox d-block gallery-item">
+          <img src="images/Image_15.JPEG" class="img-fluid rounded-4 shadow" alt="HKUST Chemistry Society">
+          <div class="overlay"><span>HKUST Chemistry Society</span></div>
+        </a>
+      </div>
+
+      <div class="col-sm-6 col-md-4">
+        <a href="images/Image_14.JPEG" class="glightbox d-block gallery-item">
+          <img src="images/Image_14.JPEG" class="img-fluid rounded-4 shadow" alt="Cape D'Aguilar of Hong Kong">
+          <div class="overlay"><span>Cape D'Aguilar of Hong Kong</span></div>
+        </a>
+      </div>
+
+      <div class="col-sm-6 col-md-4">
+        <a href="images/Image_13.JPEG" class="glightbox d-block gallery-item">
+          <img src="images/Image_13.JPEG" class="img-fluid rounded-4 shadow" alt="Climbing of Mt.Muji @ 2017">
+          <div class="overlay"><span>Climbing of Mt.Muji @ 2017</span></div>
+        </a>
+      </div>
+      <div class="col-sm-6 col-md-4">
+        <a href="images/Image_12.JPEG" class="glightbox d-block gallery-item">
+          <img src="images/Image_12.JPEG" class="img-fluid rounded-4 shadow" alt="Intership in CEDD HKSAR">
+          <div class="overlay"><span>Intership in CEDD HKSAR</span></div>
+        </a>
+      </div>
+
+      <div class="col-sm-6 col-md-4">
+        <a href="images/Image_11.JPEG" class="glightbox d-block gallery-item">
+          <img src="images/Image_11.JPEG" class="img-fluid rounded-4 shadow" alt="Landslide Emergency Work in CEDD">
+          <div class="overlay"><span>Landslide Emergency Work in CEDD</span></div>
+        </a>
+      </div>
+
+      <div class="col-sm-6 col-md-4">
+        <a href="images/Image_10.JPEG" class="glightbox d-block gallery-item">
+          <img src="images/Image_10.JPEG" class="img-fluid rounded-4 shadow" alt="Exchange Student Support Program @ HKUST">
+          <div class="overlay"><span>Exchange Student Support Program @ HKUST</span></div>
+        </a>
+      </div>
+
+      <div class="col-sm-6 col-md-4">
+        <a href="images/Image_09.JPEG" class="glightbox d-block gallery-item">
+          <img src="images/Image_09.JPEG" class="img-fluid rounded-4 shadow" alt="Civil Society Orientation Camp Helper">
+          <div class="overlay"><span>Civil Society O Camp Helper</span></div>
+        </a>
+      </div>
+
+      <div class="col-sm-6 col-md-4">
+        <a href="images/Image_08.JPEG" class="glightbox d-block gallery-item">
+          <img src="images/Image_08.JPEG" class="img-fluid rounded-4 shadow" alt="Senior Student Hall Mentor @ 2017">
+          <div class="overlay"><span>Senior Student Hall Mentor @ 2017</span></div>
+        </a>
+      </div>
+      <div class="col-sm-6 col-md-4">
+        <a href="images/Image_07.JPEG" class="glightbox d-block gallery-item">
+          <img src="images/Image_07.JPEG" class="img-fluid rounded-4 shadow" alt="Senior Student Hall Mentor @ 2017">
+          <div class="overlay"><span>Senior Student Hall Mentor @ 2017</span></div>
+        </a>
+      </div>
+
+      <div class="col-sm-6 col-md-4">
+        <a href="images/Image_06.JPEG" class="glightbox d-block gallery-item">
+          <img src="images/Image_06.JPEG" class="img-fluid rounded-4 shadow" alt="Camping at Tap Mun Island">
+          <div class="overlay"><span>Camping at Tap Mun Island</span></div>
+        </a>
+      </div>
+
+      <div class="col-sm-6 col-md-4">
+        <a href="images/Image_05.jpg" class="glightbox d-block gallery-item">
+          <img src="images/Image_05.jpg" class="img-fluid rounded-4 shadow" alt="HKUST School Social Service Society">
+          <div class="overlay"><span>HKUST School Social Service Society</span></div>
+        </a>
+      </div>
+
+      <div class="col-sm-6 col-md-4">
+        <a href="images/Image_04.JPEG" class="glightbox d-block gallery-item">
+          <img src="images/Image_04.JPEG" class="img-fluid rounded-4 shadow" alt="Hiking @ Enoshima Island">
+          <div class="overlay"><span>Hiking @ Enoshima Island</span></div>
+        </a>
+      </div>
+
+      <div class="col-sm-6 col-md-4">
+        <a href="images/Image_03.jpg" class="glightbox d-block gallery-item">
+          <img src="images/Image_03.jpg" class="img-fluid rounded-4 shadow" alt="Industrial Training @ HKUST">
+          <div class="overlay"><span>Industrial Training @ HKUST</span></div>
+        </a>
+      </div>
+      <div class="col-sm-6 col-md-4">
+        <a href="images/Image_02.JPEG" class="glightbox d-block gallery-item">
+          <img src="images/Image_02.JPEG" class="img-fluid rounded-4 shadow" alt="Ng Tung Chai Waterfall">
+          <div class="overlay"><span>Ng Tung Chai Waterfall</span></div>
+        </a>
+      </div>
+
+      <div class="col-sm-6 col-md-4">
+        <a href="images/Image_01.JPEG" class="glightbox d-block gallery-item">
+          <img src="images/Image_01.JPEG" class="img-fluid rounded-4 shadow" alt="Graduation @ KTSCSS">
+          <div class="overlay"><span>Graduation @ KTSCSS</span></div>
+        </a>
+      </div>
+
+      <!-- Add more items similarly -->
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer text-center py-4 mt-5" style="border-top: 1px solid #333;">
+    <small>&copy; 2025 Kevin Wai Kuen Ng | All Rights Reserved.</small>
+  </footer>
+
+  <!-- JS Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init();
+    const lightbox = GLightbox({ selector: '.glightbox' });
+  </script>
+
+</body>
+</html>

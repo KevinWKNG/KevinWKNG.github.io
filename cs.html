@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Computer Science Journey | Kevin Ng</title>
+
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- FontAwesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+
+  <!-- AOS Animate on Scroll -->
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="styles.css" />
+
+</head>
+
+<body class="dark-theme" style="background: radial-gradient(circle at top left, #0a192f, #000); color: white;">
+
+  <!-- Navbar -->
+  <header class="nav py-3">
+    <div class="container d-flex justify-content-between align-items-center">
+      <div class="logo d-flex align-items-center">
+        <img src="images/engineering.png" alt="Kevin Logo" class="logo-icon me-2" style="height: 40px;">
+        <span style="font-weight: bold; font-size: 24px;">Kevin Ng</span>
+      </div>
+
+      <nav class="d-none d-md-flex gap-4">
+        <a href="index.html" class="nav-link text-white">Home</a>
+        <a href="experience.html" class="nav-link text-white">Portfolio</a>
+        <div class="custom-dropdown">
+          <a href="hobbies.html" class="nav-link text-white">Hobbies</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="cs.html">Computer Science</a></li>
+            <li><a class="dropdown-item" href="jap.html">Japanese</a></li>
+          </ul>
+        </div>
+        <a href="gallery.html" class="nav-link text-white">Personal Gallery</a>
+        <a href="contact.html" class="nav-link text-white">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Section -->
+  <main class="container py-5">
+
+    <!-- Title -->
+    <div class="text-center mb-5" data-aos="fade-down">
+      <h1 class="display-4" style="color: #00ffcc;">Journey of Computer Science</h1>
+      <p class="lead text-custom-muted">Exploring the digital world within the mirror of the real world.</p>
+    </div>
+
+    <!-- Learning Section -->
+    <div class="row g-5 align-items-center">
+
+      <!-- Text Side -->
+      <div class="col-lg-6" data-aos="fade-right">
+        <h2 class="h3 mb-3" style="color: #00ffcc;"><i class="fas fa-laptop-code"></i> Computer Science?</h2>
+        <p class="text-white-50">
+          Computer Science is not about Computers, nor is it about Science. It is about the function f(x) of Innovation, Creation and Invention.
+        </p>
+
+        <h2 class="h3 mb-3 mt-4" style="color: #00ffcc;"><i class="fas fa-certificate"></i> Self-learning Courses & Platforms</h2>
+        <ul class="text-white-50 ps-3">
+          <li>CS50 - Computer Science Course provided by Harvard (via edX)</li>
+          <li>MIT 6.001 Structure and Interpretation of Computer Programs, 2005 (Youtube - MIT OpenCourseWare)</li>
+          <li>Skills: Scratch, C, python, SQL, html, javascript, CSS</li>
+          <li>Magic Skill: Eval - Apply loops ; magic crafted by other developers</li>
+        </ul>
+
+        <h2 class="h3 mb-3 mt-4" style="color: #00ffcc;"><i class="fas fa-bullseye"></i> Goal</h2>
+        <p class="text-white-50">
+          Immersed in the new era of AI and automation - to invent, to inspire, and to push the gears of the great wheel of time.
+        </p>
+      </div>
+
+      <!-- Image Side -->
+      <div class="col-lg-6" data-aos="fade-left">
+        <div class="gallery-grid">
+          <div class="gallery-item">
+            <img src="images/CS1.png" alt="Learning on YouTube" class="img-fluid rounded shadow">
+            <div class="overlay">YouTube Learning</div>
+          </div>
+          <div class="gallery-item mt-4">
+            <img src="images/CS2.png" alt="CS50 Certificate" class="img-fluid rounded shadow">
+            <div class="overlay">HarvardX CS50</div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer text-center py-4 mt-5" style="border-top: 1px solid #333;">
+    <small>&copy; 2025 Kevin Wai Kuen Ng | All Rights Reserved.</small>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 800,
+      once: true,
+      easing: 'ease-out-cubic'
+    });
+  </script>
+
+</body>
+</html>

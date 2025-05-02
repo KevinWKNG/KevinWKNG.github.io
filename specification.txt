@@ -1,0 +1,3 @@
+10 HTML tags: <html>, <head>, <body>, <title>, <header>, <main>, <div>, <section>, <footer>, <button>, <a>, <p>
+5 CSS propertie: background-color,  color,  text-align, font-size, font-style
+Brief description: Loading the Bootstrap plugins to save time, and use javascript to write codes for specific requirement.
